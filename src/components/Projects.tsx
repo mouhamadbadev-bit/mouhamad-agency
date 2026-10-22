@@ -87,7 +87,7 @@ export default function Projects() {
                   src={project.image}
                   alt={`Capture du projet ${project.title}`}
                   loading="lazy"
-                  className="h-full w-full object-cover"
+                  className="h-full w-full object-cover p-1.5 hover:cursor-zoom-out"
                   onError={(event) => {
                     event.currentTarget.style.display = "none";
                   }}
