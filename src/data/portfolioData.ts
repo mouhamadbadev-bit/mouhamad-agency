@@ -22,21 +22,10 @@ export type Project = {
 };
 
 export const projects: Project[] = [
-  {
+    {
     id: 1,
-    title: " Agance Imobilier",
-    category: "Application web",
-    description:
-      "Une plateforme web moderne et intuitive permettant de rechercher, filtrer et explorer des biens immobiliers de prestige avec une interface fluide.",
-    image: images1,
-    technologies: ["React", "TypeScript", "Tailwind CSS"],
-    codeUrl: "https://github.com/mouhamadbadev-bit/agence-immobilier2",
-    liveUrl: "https://agence-immobilier2.vercel.app/",
-  },
-  {
-    id: 2,
     title: "Agance Imobilier",
-    category: "E-commerce",
+    category: "Immobiliere",
     description:
       "Un site d'agence immobilière conçu pour valoriser les offres de location et de vente, facilitant la mise en relation entre acheteurs et vendeurs.",
     image: images2,
@@ -44,10 +33,44 @@ export const projects: Project[] = [
     codeUrl: "https://github.com/mouhamadbadev-bit/agence-immobilier1",
     liveUrl: "https://agence-immobilier-five.vercel.app/",
   },
-  {
+   {
+    id: 2,
+    title: "Projet-Hotelier",
+    category: "Hotel",
+    description:
+      "Un hôtel de luxe installé dans un bâtiment historique rénové avec élégance, mariant le charme de l'ancien à des équipements domotiques de pointe pour un séjour inoubliable.",
+    image: images8,
+    technologies: ["React", "TypeScript", "Tailwind CSS"],
+    codeUrl: "https://github.com/mouhamadbadev-bit/Projet-hot-lier4",
+    liveUrl: "https://projet-hotel-bbus.vercel.app/",
+  },
+    {
     id: 3,
+    title: "Garage-Automobile",
+    category: "Garage",
+    description:
+     "Un centre de réparation automobile moderne proposant des diagnostics électroniques de pointe, de la mécanique générale et un entretien complet pour garantir la fiabilité de votre véhicule.",
+    image: images9,
+    technologies: ["React", "TypeScript", "Tailwind CSS"],
+    codeUrl: "https://github.com/mouhamadbadev-bit/garage-automobile",
+    liveUrl: "https://garage-automobile.vercel.app/",
+  },
+  {
+    id: 4,
+    title: " Agance Imobilier",
+    category: "Immobiliere",
+    description:
+      "Une plateforme web moderne et intuitive permettant de rechercher, filtrer et explorer des biens immobiliers de prestige avec une interface fluide.",
+    image: images1,
+    technologies: ["React", "TypeScript", "Tailwind CSS"],
+    codeUrl: "https://github.com/mouhamadbadev-bit/agence-immobilier2",
+    liveUrl: "https://agence-immobilier2.vercel.app/",
+  },
+
+  {
+    id: 5,
     title: "Agance Imobilier",
-    category: "Productivité",
+    category: "Immobiliere",
     description:
       "Une application web interactive pour découvrir des biens immobiliers détaillés, consulter les caractéristiques des logements et contacter facilement les conseillers.",
     image: images3,
@@ -56,9 +79,9 @@ export const projects: Project[] = [
     liveUrl: "https://agence-immobilier-dlva-git-main-mouhamad-agency.vercel.app/",
   },
   {
-    id: 4,
+    id: 6,
     title: "Projet-Hotelier",
-    category: "Productivité",
+    category: "Hotel",
     description:
       "Un hôtel de charme intimiste alliant design contemporain et confort chaleureux, offrant des suites spacieuses avec vue panoramique et un service de conciergerie personnalisé.",
     image:images4,
@@ -67,9 +90,9 @@ export const projects: Project[] = [
     liveUrl: "https://projet-hotel2.vercel.app/",
   },
    {
-    id: 5,
+    id: 7,
     title: "Projet-Hotelier",
-    category: "Productivité",
+    category: "Hotel",
     description:
       "Un établissement urbain moderne et connecté, idéal pour les voyageurs d'affaires, proposant des espaces de coworking design, des salles de réunion high-tech et un accès rapide au centre-ville.",
     image: images5,
@@ -78,9 +101,9 @@ export const projects: Project[] = [
     liveUrl: "https://projet-hotel3.vercel.app/",
   },
    {
-    id: 6,
+    id: 8,
     title: "Projet-Hotelier",
-    category: "Productivité",
+    category: "Hotel",
     description:
       "Un resort balnéaire éco-responsable niché au cœur d'une nature luxuriante, doté de villas privées avec piscines à débordement et d'un spa axé sur le bien-être holistique.",
     image: images6,
@@ -89,9 +112,9 @@ export const projects: Project[] = [
     liveUrl: "https://projet-hotel-ten.vercel.app/",
   },
    {
-    id: 7,
+    id: 9,
     title: "Projet-Hotelier",
-    category: "Productivité",
+    category: "Hotel",
     description:
       "Un hôtel minimaliste aux lignes épurées et éco-conçues, privilégiant les matériaux naturels, la lumière, et offrant une expérience de séjour apaisante et silencieuse.",
     image: images7,
@@ -99,32 +122,12 @@ export const projects: Project[] = [
     codeUrl: "https://github.com/mouhamadbadev-bit/projet-hotel1",
     liveUrl: "https://projet-hotel1.vercel.app/",
   },
-   {
-    id: 8,
-    title: "Projet-Hotelier",
-    category: "Productivité",
-    description:
-      "Un hôtel de luxe installé dans un bâtiment historique rénové avec élégance, mariant le charme de l'ancien à des équipements domotiques de pointe pour un séjour inoubliable.",
-    image: images8,
-    technologies: ["React", "TypeScript", "Tailwind CSS"],
-    codeUrl: "https://github.com/mouhamadbadev-bit/Projet-hot-lier4",
-    liveUrl: "https://projet-hotel-bbus.vercel.app/",
-  },
-   {
-    id: 9,
-    title: "Garage-Automobile",
-    category: "Productivité",
-    description:
-     "Un centre de réparation automobile moderne proposant des diagnostics électroniques de pointe, de la mécanique générale et un entretien complet pour garantir la fiabilité de votre véhicule.",
-    image: images9,
-    technologies: ["React", "TypeScript", "Tailwind CSS"],
-    codeUrl: "https://github.com/mouhamadbadev-bit/garage-automobile",
-    liveUrl: "https://garage-automobile.vercel.app/",
-  },
+  
+ 
    {
     id: 10,
     title: "Garage-Automobile",
-    category: "Productivité",
+    category: "Garage",
     description:
       "Un garage de proximité spécialisé dans les interventions rapides (vidange, pneumatiques, système de freinage et géométrie) avec un service transparent et un devis immédiat.",
     image: images10,
@@ -135,7 +138,7 @@ export const projects: Project[] = [
    {
     id: 11,
     title: "Garage-Automobile",
-    category: "Productivité",
+    category: "Garage",
     description:
       "Un atelier spécialisé dans la révision approfondie, la recherche de pannes complexes et l'optimisation des performances moteur, animé par une équipe de techniciens qualifiés.",
     image: images11,
