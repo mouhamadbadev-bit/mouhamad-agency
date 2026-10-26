@@ -13,7 +13,7 @@ export default function Hero() {
           </span>
 
           <h1 className="mt-6 text-5xl font-black tracking-tight text-white sm:text-6xl lg:text-7xl">
-            Ibrahima{" "}
+            Mouhamad{" "}
             <span className="bg-linear-to-r from-violet-400 to-blue-400 bg-clip-text text-transparent">
               Ba
             </span>

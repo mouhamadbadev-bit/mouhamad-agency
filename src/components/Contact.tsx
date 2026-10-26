@@ -49,7 +49,7 @@ export default function Contact() {
   const whatsappUrl =
     `https://wa.me/${socialLinks.whatsapp}?text=` +
     encodeURIComponent(
-      "Bonjour Alpha, je vous contacte depuis votre portfolio pour discuter d'un projet web."
+      "Bonjour Mouhamad, je vous contacte depuis votre portfolio pour discuter d'un projet web."
     );
 
   return (

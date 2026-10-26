@@ -9,12 +9,12 @@ export default function Footer() {
         <a href="#accueil" className="text-xl font-black text-violet-400">
           AD
           <span className="ml-2 text-sm font-semibold text-white">
-            Alpha Dieng
+            Mouhamad Ba
           </span>
         </a>
 
         <p className="text-xs text-slate-500">
-          © {new Date().getFullYear()} Alpha Dieng. Tous droits réservés.
+          © {new Date().getFullYear()} Mouhamad Ba. Tous droits réservés.
         </p>
 
         <div className="flex items-center gap-4">

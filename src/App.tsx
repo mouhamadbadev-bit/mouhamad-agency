@@ -41,7 +41,7 @@ export default function App() {
   const whatsappUrl =
     `https://wa.me/${socialLinks.whatsapp}?text=` +
     encodeURIComponent(
-      "Bonjour Alpha, je vous contacte depuis votre portfolio pour discuter d'un projet web."
+      "Bonjour Mouhamad, je vous contacte depuis votre portfolio pour discuter d'un projet web."
     );
 
   return (
@@ -71,7 +71,7 @@ export default function App() {
         href={whatsappUrl}
         target="_blank"
         rel="noreferrer"
-        aria-label="Contacter Alpha sur WhatsApp"
+        aria-label="Contacter Ibrahima sur WhatsApp"
         className="fixed bottom-5 right-5 z-40 grid h-14 w-14 place-items-center rounded-full bg-green-500 text-white shadow-xl shadow-green-500/20 transition hover:scale-105 hover:bg-green-400"
       >
         <MessageCircle size={26} />

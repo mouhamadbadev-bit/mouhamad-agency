@@ -38,7 +38,7 @@ export default function Navbar({
           </span>
           <span>
             <strong className="block text-sm text-white">
-              Ibrahima ba
+           Mouhamad Ba
             </strong>
             <small className="text-xs text-slate-400">
               Front-end Developer
