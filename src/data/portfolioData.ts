@@ -9,7 +9,7 @@ import images8 from "../assets/8.png"
 import images9 from "../assets/9.png"
 import images10 from "../assets/10.png"
 import images11 from "../assets/11.png"
-
+import images12 from "../assets/12.png"
 export type Project = {
   id: number;
   title: string;
@@ -66,8 +66,19 @@ export const projects: Project[] = [
     codeUrl: "https://github.com/mouhamadbadev-bit/projet-hotel",
     liveUrl: "https://projet-hotel-ten.vercel.app/",
   },
-  {
+    {
     id: 5,
+    title: "Hotel de Luxe",
+    category: "Hotel",
+    description:
+      "Un hôtel de luxe offrant des suites somptueuses avec vue panoramique, un service de conciergerie personnalisé et des expériences gastronomiques exclusives.  ",
+    image: images12,
+    technologies: ["React", "TypeScript", "Tailwind CSS"],
+    codeUrl: "https://github.com/mouhamadbadev-bit/Hotelier",
+    liveUrl: "https://hotelier-750.vercel.app/",
+  },
+  {
+    id: 6,
     title: " Agance Imobilier",
     category: "Immobiliere",
     description:
@@ -79,7 +90,7 @@ export const projects: Project[] = [
   },
 
   {
-    id: 6,
+    id: 7,
     title: "Agance Imobilier",
     category: "Immobiliere",
     description:
@@ -90,7 +101,7 @@ export const projects: Project[] = [
     liveUrl: "https://agence-immobilier-dlva-git-main-mouhamad-agency.vercel.app/",
   },
   {
-    id: 7,
+    id: 8,
     title: "Projet-Hotelier",
     category: "Hotel",
     description:
@@ -101,7 +112,7 @@ export const projects: Project[] = [
     liveUrl: "https://projet-hotel2.vercel.app/",
   },
    {
-    id: 8,
+    id: 9,
     title: "Projet-Hotelier",
     category: "Hotel",
     description:
@@ -113,7 +124,7 @@ export const projects: Project[] = [
   },
   
    {
-    id: 9,
+    id: 10,
     title: "Projet-Hotelier",
     category: "Hotel",
     description:
@@ -126,7 +137,7 @@ export const projects: Project[] = [
   
  
    {
-    id: 10,
+    id: 11,
     title: "Garage-Automobile",
     category: "Garage",
     description:
@@ -137,7 +148,7 @@ export const projects: Project[] = [
     liveUrl: "https://garage-automobile1.vercel.app/",
   },
    {
-    id: 11,
+    id: 12,
     title: "Garage-Automobile",
     category: "Garage",
     description:
@@ -148,9 +159,8 @@ export const projects: Project[] = [
     liveUrl: "https://garage-automobile2-gamma.vercel.app/",
   },
 
-];
 
-
+]
 
 
 
